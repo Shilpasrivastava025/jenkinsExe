@@ -27,7 +27,6 @@ import comcast.vtiger.genericUtility.WebDriver_Utility;
 import comcast.vtiger.objectRepository.CampaignPage;
 import comcast.vtiger.objectRepository.HomePage;
 import comcast.vtiger.objectRepository.LoginPage;
-@Listeners(comcast.vtiger.genericUtility.ListenerImplementationClass.class)
 public class CreateCampaignTest extends BaseClass{
 @Test(groups="regressionTest")
 public void CreateCampaign()throws Throwable
