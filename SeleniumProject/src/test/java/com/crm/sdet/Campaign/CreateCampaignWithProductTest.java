@@ -39,7 +39,7 @@ public class CreateCampaignWithProductTest extends BaseClass {
 	public void CampaignWithProduct() throws Throwable{
 	
 		System.setProperty("webdriver.chrome.driver", "F:\\New folder\\chromedriver.exe");
-			
+			System.out.println(" Welcome to jenkins");
 		WebDriver_Utility wbUlitity= new WebDriver_Utility();
 		Java_Utility Jutility= new Java_Utility();
 		File_Utility FUtility= new File_Utility();
